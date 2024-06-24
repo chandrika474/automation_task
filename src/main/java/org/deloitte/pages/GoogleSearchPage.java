@@ -21,7 +21,7 @@ public class GoogleSearchPage extends BasePage {
     }
 
     public void googleSearch(String searchKeyword) {
-        logger.info("googleSearch({})", searchKeyword);
+        logger.info(String.format("googleSearch({})", searchKeyword));
         driver.enterText(searchInputField, searchKeyword);
         driver.pressEnter(searchInputField);
     }

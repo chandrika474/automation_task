@@ -21,7 +21,9 @@ public class Hook extends BaseTest {
 
     @After
     public void tearDown(Scenario scenario) {
-        logger.info("Quit the browser.");
+        logger.info("Closing the browser.");
+        final byte[] screenshot = driver.getScreenshot();
+        scenario.attach(screenshot, "image/png", scenario.getName());
         this.driver.quit();
     }
 }

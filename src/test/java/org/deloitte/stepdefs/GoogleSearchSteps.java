@@ -28,14 +28,14 @@ public class GoogleSearchSteps extends BaseTest {
 
     @When("I enter {string} in search field")
     public void enterSearchKeyword(String searchKeyword) {
-        logger.info("I enter {} in search field", searchKeyword);
+        logger.info(String.format("I enter %s in search field", searchKeyword));
         Map<String, String> data = TestData.searchTestData.get(0);
         searchPage.googleSearch(data.get(searchKeyword));
     }
 
     @Then("I verify first link in the results contains {string}")
     public void verifyFirstLink(String searchKey) {
-        logger.info("I verify first link in the results contains {}", searchKey);
+        logger.info(String.format("I verify first link in the results contains %s.", searchKey));
         Map<String, String> data = TestData.searchTestData.get(0);
         String searchKeyword = data.get(searchKey);
         String firstLinkText = searchPage.getFirstLinkText().toLowerCase();
