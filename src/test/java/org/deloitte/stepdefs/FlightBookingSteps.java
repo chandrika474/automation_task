@@ -7,8 +7,12 @@ import org.deloitte.pages.FlightBookingPage;
 import org.deloitte.pages.FlightSearchResultsPage;
 import org.deloitte.pages.IxigoHomePage;
 import org.deloitte.utils.DeloitteDriver;
+import org.deloitte.utils.ExcelFileUtil;
+import org.deloitte.utils.TestData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.Map;
 
 public class FlightBookingSteps extends BaseTest {
     private static final Logger log = LoggerFactory.getLogger(FlightBookingSteps.class);
@@ -23,9 +27,17 @@ public class FlightBookingSteps extends BaseTest {
 
     @Given("I navigate to home page")
     public void gotoHomePage() {
-        logger.info("I navigate to home page");;
+        logger.info("I navigate to home page");
+        ;
         driver.navigateToHomePage();
         homePage = new IxigoHomePage(driver);
+    }
+
+    @And("I search with {string} and {int} data with current date")
+    public void enterFlightSearchDetails(String sheetName, int row) {
+        logger.info(String.format("I search with %s and %s data with current date", sheetName, row));
+        Map<String, String> data = new ExcelFileUtil().readData(TestData.excelFile, sheetName, row);
+        searchResultsPage = homePage.enterSearchDetails(data.get("From"), data.get("To"));
     }
 
     @And("I travel {string} to {string} on current date")

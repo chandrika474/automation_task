@@ -20,13 +20,16 @@ public class LoggerReport {
 
     public void info(String message) {
         logger.info(message);
+        testLog.info(message);
     }
 
     public void debug(String message) {
         logger.debug(message);
+        testLog.info(message);
     }
 
     public void error(String message, Throwable throwable) {
         logger.error(message, throwable);
+        testLog.fail(throwable);
     }
 }

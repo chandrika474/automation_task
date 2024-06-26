@@ -47,4 +47,12 @@ public class ExcelFileUtil {
         logger.debug("Excel Sheet Data: {}", data);
         return data;
     }
+
+    public Map<String, String> readData(String filePath, String sheetName, int row) {
+        logger.info("Reading the data from {} and sheet {} and row{}", filePath, sheetName, row);
+        XSSFSheet sheet = getWorkbookSheet(filePath, sheetName);
+        Map<String, String> data = readData(filePath, sheetName).get(row);
+        logger.debug("Excel Sheet Data with row: {}", data);
+        return data;
+    }
 }

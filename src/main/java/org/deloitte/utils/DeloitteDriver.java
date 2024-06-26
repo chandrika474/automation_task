@@ -85,6 +85,7 @@ public class DeloitteDriver {
     public void enterText(By element, String text) {
         logger.info(String.format("Enter text: %s", text));
         findElement(element).clear();
+        findElement(element).clear();
         findElement(element).sendKeys(text);
     }
 
