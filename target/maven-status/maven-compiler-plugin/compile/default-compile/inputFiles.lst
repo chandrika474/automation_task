@@ -9,5 +9,7 @@
 /home/jagadeesh/personalws/java/automation_testing/src/main/java/org/deloitte/utils/Constants.java
 /home/jagadeesh/personalws/java/automation_testing/src/main/java/org/deloitte/pages/GoogleSearchPage.java
 /home/jagadeesh/personalws/java/automation_testing/src/main/java/org/deloitte/pages/BasePage.java
+/home/jagadeesh/personalws/java/automation_testing/src/main/java/org/deloitte/utils/PDFFileUtil.java
 /home/jagadeesh/personalws/java/automation_testing/src/main/java/org/deloitte/pages/PaymentConfirmationPage.java
+/home/jagadeesh/personalws/java/automation_testing/src/main/java/org/deloitte/utils/LoggerReport.java
 /home/jagadeesh/personalws/java/automation_testing/src/main/java/org/deloitte/utils/PropertiesUtil.java

@@ -28,6 +28,11 @@ public class LoggerReport {
         testLog.info(message);
     }
 
+    public void error(String message) {
+        logger.error(message);
+        testLog.fail(message);
+    }
+
     public void error(String message, Throwable throwable) {
         logger.error(message, throwable);
         testLog.fail(throwable);

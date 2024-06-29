@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         glue = {"org/deloitte/stepdefs", "org/deloitte/base"},
-        features = {"src/test/resources/FlightBooking.feature"},
+        features = {"src/test/resources/PDFTest.feature"},
         plugin = {
                 "pretty",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
