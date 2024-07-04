@@ -28,7 +28,6 @@ public class FlightBookingSteps extends BaseTest {
     @Given("I navigate to home page")
     public void gotoHomePage() {
         logger.info("I navigate to home page");
-        ;
         driver.navigateToHomePage();
         homePage = new IxigoHomePage(driver);
     }

@@ -32,7 +32,8 @@ public class PDFTestSteps extends BaseTest {
     public void validateText(String pdfFileName) {
         logger.info(String.format("Validate text with PDF file content located at %s", pdfFileName));
         String pdfText = PDFReader.readPDFFile(TestData.resourceDir + pdfFileName).trim();
-        String testData = data.get("Sample PDF Text ").replace("\n", " ").trim();
-        Assert.assertEquals(testData, pdfText.replace("\n", " "));
+        pdfText = pdfText.replaceAll("\\r\\n|\\r|\\n", " ");
+        String testData = data.get("Sample PDF Text ").replaceAll("\n", " ").trim();
+        Assert.assertEquals(testData, pdfText);
     }
 }
