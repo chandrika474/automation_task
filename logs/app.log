@@ -1256,3 +1256,72 @@ java.io.IOException: Error: End-of-File, expected line
 2024-07-04 06:49:18 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
 2024-07-04 06:49:19 INFO  Hook:22 - Closing the browser.
 2024-07-04 06:49:19 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-07 19:39:01 INFO  Hook:22 - Launching the browser
+2024-07-07 19:39:01 INFO  PropertiesUtil:16 - Reading the properties file located at C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\config.properties
+2024-07-07 19:39:01 INFO  ExcelFileUtil:33 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 19:39:01 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 19:40:23 INFO  Hook:22 - Launching the browser
+2024-07-07 19:40:23 INFO  PropertiesUtil:16 - Reading the properties file located at C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\config.properties
+2024-07-07 19:40:23 INFO  ExcelFileUtil:33 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 19:40:23 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 19:40:26 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 19:40:26 INFO  ExcelFileUtil:52 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 19:40:26 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 19:40:26 INFO  ExcelFileUtil:33 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 19:40:26 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 19:40:26 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 19:40:26 INFO  Hook:22 - Closing the browser.
+2024-07-07 19:40:26 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-07 19:41:28 INFO  Hook:22 - Launching the browser
+2024-07-07 19:41:28 INFO  PropertiesUtil:16 - Reading the properties file located at C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\config.properties
+2024-07-07 19:41:28 INFO  ExcelFileUtil:33 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 19:41:28 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 19:42:02 INFO  Hook:22 - Closing the browser.
+2024-07-07 19:42:50 INFO  Hook:22 - Launching the browser
+2024-07-07 19:42:50 INFO  PropertiesUtil:16 - Reading the properties file located at C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\config.properties
+2024-07-07 19:42:50 INFO  ExcelFileUtil:33 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 19:42:50 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 19:43:52 INFO  Hook:22 - Closing the browser.
+2024-07-07 19:43:52 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 19:43:52 INFO  ExcelFileUtil:52 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 19:43:52 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 19:43:52 INFO  ExcelFileUtil:33 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 19:43:52 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 19:43:52 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 19:43:52 INFO  Hook:22 - Closing the browser.
+2024-07-07 19:44:17 INFO  Hook:22 - Launching the browser
+2024-07-07 19:44:17 INFO  PropertiesUtil:16 - Reading the properties file located at C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\config.properties
+2024-07-07 19:44:17 INFO  ExcelFileUtil:33 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 19:44:17 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 19:44:21 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 19:44:21 INFO  ExcelFileUtil:52 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 19:44:21 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 19:44:21 INFO  ExcelFileUtil:33 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 19:44:21 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 19:44:21 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 19:44:21 INFO  Hook:22 - Closing the browser.
+2024-07-07 19:44:21 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-07 19:44:37 INFO  Hook:22 - Launching the browser
+2024-07-07 19:44:37 INFO  PropertiesUtil:16 - Reading the properties file located at C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\config.properties
+2024-07-07 19:44:37 INFO  ExcelFileUtil:33 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 19:44:37 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 19:44:40 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 19:44:40 INFO  ExcelFileUtil:52 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 19:44:40 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 19:44:40 INFO  ExcelFileUtil:33 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 19:44:40 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 19:44:40 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 19:44:41 INFO  Hook:22 - Closing the browser.
+2024-07-07 19:44:41 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-07 19:45:03 INFO  Hook:22 - Launching the browser
+2024-07-07 19:45:03 INFO  PropertiesUtil:16 - Reading the properties file located at C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\config.properties
+2024-07-07 19:45:03 INFO  ExcelFileUtil:33 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-07 19:45:03 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-07 19:45:06 INFO  PDFTestSteps:22 - I read test data from Sheet2 at 0
+2024-07-07 19:45:06 INFO  ExcelFileUtil:52 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-07 19:45:06 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 19:45:06 INFO  ExcelFileUtil:33 - Reading the data from C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-07 19:45:06 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(C:\Users\kochandrika\Desktop\Automation-testing\automation_task\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-07 19:45:06 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
+2024-07-07 19:45:06 INFO  Hook:22 - Closing the browser.
+2024-07-07 19:45:07 INFO  DeloitteDriver:22 - Quit the browser
