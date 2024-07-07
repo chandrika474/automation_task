@@ -33,6 +33,18 @@ public class DeloitteDriver {
         driverThreadLocal.set(driver);
     }
 
+    public static DeloitteDriver getRemoteDriver() throws MalformedURLException {
+        DeloitteDriver seleniumDriver = new DeloitteDriver();
+        String nodeUrl = "http://localhost:4444/wd/hub";
+        DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setBrowserName("MicrosoftEdge");
+        cap.setPlatform(Platform.WIN11);
+        //WebDriverManager.edgedriver().setup();
+        WebDriver driver = new RemoteWebDriver(new URL(nodeUrl),cap);
+        seleniumDriver.setDriver(driver);
+        return seleniumDriver;
+    }
+
     public static DeloitteDriver getSeleniumDriver() {
         DeloitteDriver seleniumDriver = new DeloitteDriver();
         if (seleniumDriver.config.getBrowser().equalsIgnoreCase("chrome")) {
