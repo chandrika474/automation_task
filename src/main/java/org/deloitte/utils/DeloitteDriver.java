@@ -45,7 +45,7 @@ public class DeloitteDriver {
         cap.setBrowserName("MicrosoftEdge");
         cap.setPlatform(Platform.WIN11);
         //WebDriverManager.edgedriver().setup();
-        WebDriver driver = new RemoteWebDriver(new URL(nodeUrl),cap);
+        WebDriver driver = new RemoteWebDriver(new URL(nodeUrl), cap);
         seleniumDriver.setDriver(driver);
         return seleniumDriver;
     }
