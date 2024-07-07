@@ -15,7 +15,7 @@ public class Hook extends BaseTest {
     @Before
     public void setUp(Scenario scenario) {
         logger.info("Launching the browser");
-        this.driver = DeloitteDriver.getSeleniumDriver();
+        this.driver = DeloitteDriver.getRemoteDriver();
         this.test.driver = this.driver;
     }
 
