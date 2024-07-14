@@ -8,10 +8,12 @@ import org.apache.poi.ss.formula.functions.T;
 
 public class LoggerReport {
     private Logger logger;
-    private final ExtentTest testLog = ExtentCucumberAdapter.getCurrentStep();
+    private ExtentTest testLog = null;
 
     private LoggerReport(Class<T> tClass) {
+        System.out.println(tClass.getName());
         this.logger = LogManager.getLogger(tClass);
+        this.testLog = ExtentCucumberAdapter.getCurrentStep();
     }
 
     public static LoggerReport getLogger(Class tClass) {

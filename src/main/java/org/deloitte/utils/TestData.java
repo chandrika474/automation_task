@@ -8,6 +8,7 @@ import java.util.Map;
 
 public class TestData {
     private static final String rootDir = System.getProperty("user.dir");
+    public static final boolean isAPITest = true;
     private static final String separator = File.separator;
     public static final String resourceDir = rootDir + separator + "src" + separator + "main" + separator + "resources" + separator;
     public static final String configFile = resourceDir + "config.properties";

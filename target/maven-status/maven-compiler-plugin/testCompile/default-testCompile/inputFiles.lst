@@ -1,6 +1,7 @@
-/home/jagadeesh/personalws/java/automation_testing/src/test/java/org/deloitte/stepdefs/PDFTestSteps.java
-/home/jagadeesh/personalws/java/automation_testing/src/test/java/org/deloitte/base/Hook.java
-/home/jagadeesh/personalws/java/automation_testing/src/test/java/org/deloitte/runner/TestRunner.java
-/home/jagadeesh/personalws/java/automation_testing/src/test/java/org/deloitte/stepdefs/FlightBookingSteps.java
-/home/jagadeesh/personalws/java/automation_testing/src/test/java/org/deloitte/base/BaseTest.java
-/home/jagadeesh/personalws/java/automation_testing/src/test/java/org/deloitte/stepdefs/GoogleSearchSteps.java
+D:\automation_task-main\src\test\java\org\deloitte\stepdefs\UserApiSteps.java
+D:\automation_task-main\src\test\java\org\deloitte\stepdefs\GoogleSearchSteps.java
+D:\automation_task-main\src\test\java\org\deloitte\runner\TestRunner.java
+D:\automation_task-main\src\test\java\org\deloitte\base\BaseTest.java
+D:\automation_task-main\src\test\java\org\deloitte\base\Hook.java
+D:\automation_task-main\src\test\java\org\deloitte\stepdefs\PDFTestSteps.java
+D:\automation_task-main\src\test\java\org\deloitte\stepdefs\FlightBookingSteps.java

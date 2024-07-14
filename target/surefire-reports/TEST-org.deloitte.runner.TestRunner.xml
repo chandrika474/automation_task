@@ -1,560 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="org.deloitte.runner.TestRunner" time="87.344" errors="2" skipped="0">
+<testsuite tests="1" failures="0" name="org.deloitte.runner.TestRunner" time="6.611" errors="0" skipped="0">
   <properties>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="17.0.2+8-86"/>
-    <property name="sun.boot.library.path" value="/opt/jdk-17.0.2/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/jagadeesh/personalws/java/automation_testing"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.11+7-LTS-207"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\automation_task-main"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=":"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="user.country" value="US"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/jagadeesh/personalws/java/automation_testing"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="17.0.2+8-86"/>
+    <property name="user.dir" value="D:\automation_task-main"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.io.tmpdir" value="C:\Users\SRIHAR~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.4\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\nodejs\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\Sri Hari\AppData\Local\Programs\Python\Python312;C:\Users\Sri Hari\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\HP\HP One Agent;C:\Users\Sri Hari\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\bin;;C:\Users\Sri Hari\AppData\Local\Microsoft\WindowsApps;C:\Users\Sri Hari\AppData\Roaming\npm;C:\Users\Sri Hari\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.4/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="61.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.5.0-41-generic"/>
-    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
-    <property name="user.home" value="/home/jagadeesh"/>
-    <property name="user.timezone" value="Asia/Kolkata"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.4\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Sri Hari"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="17"/>
-    <property name="user.name" value="jagadeesh"/>
-    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="user.name" value="Sri Hari"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
-    <property name="java.home" value="/opt/jdk-17.0.2"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="17.0.2"/>
-    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.version" value="17.0.11"/>
+    <property name="native.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="UTF-8"/>
-    <property name="maven.home" value="/usr/share/maven"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2022-01-18"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2024-04-16"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Flight Booking and Payment Functionality" name="Flight booking confirmation with available flights #1" time="44.604">
-    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //div/p[text()=&apos; Flights Available&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div/p[text()=&apos; Flights Available&apos;] (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at org.deloitte.utils.DeloitteDriver.waitUntilElementIsPresent(DeloitteDriver.java:76)
-	at org.deloitte.pages.FlightSearchResultsPage.waitForPageLoad(FlightSearchResultsPage.java:20)
-	at org.deloitte.pages.FlightSearchResultsPage.&lt;init&gt;(FlightSearchResultsPage.java:15)
-	at org.deloitte.pages.IxigoHomePage.enterSearchDetails(IxigoHomePage.java:39)
-	at org.deloitte.stepdefs.FlightBookingSteps.enterFlightSearchDetails(FlightBookingSteps.java:40)
-	at ✽.I search with &quot;Sheet1&quot; and 0 data with current date(file:///home/jagadeesh/personalws/java/automation_testing/src/test/resources/FlightBooking.feature:5)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/p[text()=&apos; Flights Available&apos;]&quot;}
-  (Session info: chrome=126.0.6478.126)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.5.0-41-generic&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0f6cac41edbe04f208bc108555c259b0, findElement {using=xpath, value=//div/p[text()=&apos; Flights Available&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46367}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46367/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0f6cac41edbe04f208bc108555c259b0
-	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at org.deloitte.utils.DeloitteDriver.waitUntilElementIsPresent(DeloitteDriver.java:76)
-	at org.deloitte.pages.FlightSearchResultsPage.waitForPageLoad(FlightSearchResultsPage.java:20)
-	at org.deloitte.pages.FlightSearchResultsPage.&lt;init&gt;(FlightSearchResultsPage.java:15)
-	at org.deloitte.pages.IxigoHomePage.enterSearchDetails(IxigoHomePage.java:39)
-	at org.deloitte.stepdefs.FlightBookingSteps.enterFlightSearchDetails(FlightBookingSteps.java:40)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
-	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
-	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</error>
-    <system-out>
-Scenario Outline: Flight booking confirmation with available flights # src/test/resources/FlightBooking.feature:11
-2024-06-29 18:57:48 INFO  Hook:22 - Launching the browser
-2024-06-29 18:57:48 INFO  PropertiesUtil:16 - Reading the properties file located at /home/jagadeesh/personalws/java/automation_testing/src/main/resources/config.properties
-2024-06-29 18:57:48 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
-2024-06-29 18:57:48 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
-2024-06-29 18:57:50 INFO  FlightBookingSteps:22 - I navigate to home page
-2024-06-29 18:57:50 INFO  DeloitteDriver:22 - Navigate to Home Page
-2024-06-29 18:57:53 INFO  DeloitteDriver:22 - Maximize window
-  Given I navigate to home page                                      # org.deloitte.stepdefs.FlightBookingSteps.gotoHomePage()
-2024-06-29 18:57:53 INFO  FlightBookingSteps:22 - I search with Sheet1 and 0 data with current date
-2024-06-29 18:57:53 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1 and row0
-2024-06-29 18:57:53 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
-2024-06-29 18:57:53 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
-2024-06-29 18:57:53 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
-2024-06-29 18:57:53 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
-2024-06-29 18:57:53 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid=&apos;originId&apos;]//parent::div and time: 30
-2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid=&apos;originId&apos;]//parent::div
-2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid=&apos;originId&apos;]//parent::div
-2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()=&apos;From&apos;]/following-sibling::input and time: 30
-2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Enter text: New Delhi
-2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()=&apos;From&apos;]/following-sibling::input
-2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()=&apos;From&apos;]/following-sibling::input
-2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()=&apos;From&apos;]/following-sibling::input
-2024-06-29 18:57:55 INFO  DeloitteDriver:22 - Wait for 2 second(s)
-2024-06-29 18:57:57 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()=&apos;From&apos;]/ancestor::div[contains(@class, &apos;items&apos;)]//div[contains(@class, &apos;Autocompleter&apos;)]//li and get index element 0
-2024-06-29 18:57:57 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()=&apos;From&apos;]/ancestor::div[contains(@class, &apos;items&apos;)]//div[contains(@class, &apos;Autocompleter&apos;)]//li
-2024-06-29 18:57:58 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()=&apos;To&apos;]/following-sibling::input and time: 30
-2024-06-29 18:57:58 INFO  DeloitteDriver:22 - Enter text: Mumbai
-2024-06-29 18:57:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()=&apos;To&apos;]/following-sibling::input
-2024-06-29 18:57:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()=&apos;To&apos;]/following-sibling::input
-2024-06-29 18:57:58 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()=&apos;To&apos;]/following-sibling::input
-2024-06-29 18:57:58 INFO  DeloitteDriver:22 - Wait for 2 second(s)
-2024-06-29 18:58:00 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()=&apos;To&apos;]/ancestor::div[contains(@class, &apos;items&apos;)]//div[contains(@class, &apos;Autocompleter&apos;)]//li and get index element 0
-2024-06-29 18:58:00 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()=&apos;To&apos;]/ancestor::div[contains(@class, &apos;items&apos;)]//div[contains(@class, &apos;Autocompleter&apos;)]//li
-2024-06-29 18:58:00 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()=&apos;Search&apos;] and time: 30
-2024-06-29 18:58:00 INFO  DeloitteDriver:22 - Wait for 2 second(s)
-2024-06-29 18:58:02 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()=&apos;Search&apos;]
-2024-06-29 18:58:02 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()=&apos;Search&apos;]
-2024-06-29 18:58:02 INFO  FlightSearchResultsPage:22 - Wait for Page Load
-2024-06-29 18:58:02 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=&apos; Flights Available&apos;] and time: 30
-  And I search with &quot;Sheet1&quot; and 0 data with current date            # org.deloitte.stepdefs.FlightBookingSteps.enterFlightSearchDetails(java.lang.String,int)
-      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div/p[text()=&apos; Flights Available&apos;] (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at org.deloitte.utils.DeloitteDriver.waitUntilElementIsPresent(DeloitteDriver.java:76)
-	at org.deloitte.pages.FlightSearchResultsPage.waitForPageLoad(FlightSearchResultsPage.java:20)
-	at org.deloitte.pages.FlightSearchResultsPage.&lt;init&gt;(FlightSearchResultsPage.java:15)
-	at org.deloitte.pages.IxigoHomePage.enterSearchDetails(IxigoHomePage.java:39)
-	at org.deloitte.stepdefs.FlightBookingSteps.enterFlightSearchDetails(FlightBookingSteps.java:40)
-	at ✽.I search with &quot;Sheet1&quot; and 0 data with current date(file:///home/jagadeesh/personalws/java/automation_testing/src/test/resources/FlightBooking.feature:5)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/p[text()=&apos; Flights Available&apos;]&quot;}
-  (Session info: chrome=126.0.6478.126)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.5.0-41-generic&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0f6cac41edbe04f208bc108555c259b0, findElement {using=xpath, value=//div/p[text()=&apos; Flights Available&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46367}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:46367/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0f6cac41edbe04f208bc108555c259b0
-	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at org.deloitte.utils.DeloitteDriver.waitUntilElementIsPresent(DeloitteDriver.java:76)
-	at org.deloitte.pages.FlightSearchResultsPage.waitForPageLoad(FlightSearchResultsPage.java:20)
-	at org.deloitte.pages.FlightSearchResultsPage.&lt;init&gt;(FlightSearchResultsPage.java:15)
-	at org.deloitte.pages.IxigoHomePage.enterSearchDetails(IxigoHomePage.java:39)
-	at org.deloitte.stepdefs.FlightBookingSteps.enterFlightSearchDetails(FlightBookingSteps.java:40)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
-	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
-	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-
-  And I choose available flight from search results                  # org.deloitte.stepdefs.FlightBookingSteps.selectAvailableFlight()
-2024-06-29 18:58:32 INFO  Hook:22 - Closing the browser.
-
-    Embedding Flight booking confirmation with available flights [image/png 98683 bytes]
-
-2024-06-29 18:58:33 INFO  DeloitteDriver:22 - Quit the browser
-</system-out>
-    <system-err>SLF4J(W): No SLF4J providers were found.
-SLF4J(W): Defaulting to no-operation (NOP) logger implementation
-SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Jun 29, 2024 6:57:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 126
-</system-err>
-  </testcase>
-  <testcase classname="Flight Booking and Payment Functionality" name="Flight booking confirmation with available flights #2" time="42.74">
-    <error message="Expected condition failed: waiting for presence of element located by: By.xpath: //div/p[text()=&apos; Flights Available&apos;] (tried for 30 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div/p[text()=&apos; Flights Available&apos;] (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at org.deloitte.utils.DeloitteDriver.waitUntilElementIsPresent(DeloitteDriver.java:76)
-	at org.deloitte.pages.FlightSearchResultsPage.waitForPageLoad(FlightSearchResultsPage.java:20)
-	at org.deloitte.pages.FlightSearchResultsPage.&lt;init&gt;(FlightSearchResultsPage.java:15)
-	at org.deloitte.pages.IxigoHomePage.enterSearchDetails(IxigoHomePage.java:39)
-	at org.deloitte.stepdefs.FlightBookingSteps.enterFlightSearchDetails(FlightBookingSteps.java:40)
-	at ✽.I search with &quot;Sheet1&quot; and 1 data with current date(file:///home/jagadeesh/personalws/java/automation_testing/src/test/resources/FlightBooking.feature:5)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/p[text()=&apos; Flights Available&apos;]&quot;}
-  (Session info: chrome=126.0.6478.126)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.5.0-41-generic&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [35902fb870ad2fd759fe4a3028fc9c8c, findElement {using=xpath, value=//div/p[text()=&apos; Flights Available&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44961/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 35902fb870ad2fd759fe4a3028fc9c8c
-	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at org.deloitte.utils.DeloitteDriver.waitUntilElementIsPresent(DeloitteDriver.java:76)
-	at org.deloitte.pages.FlightSearchResultsPage.waitForPageLoad(FlightSearchResultsPage.java:20)
-	at org.deloitte.pages.FlightSearchResultsPage.&lt;init&gt;(FlightSearchResultsPage.java:15)
-	at org.deloitte.pages.IxigoHomePage.enterSearchDetails(IxigoHomePage.java:39)
-	at org.deloitte.stepdefs.FlightBookingSteps.enterFlightSearchDetails(FlightBookingSteps.java:40)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
-	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
-	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</error>
-    <system-out>
-Scenario Outline: Flight booking confirmation with available flights # src/test/resources/FlightBooking.feature:12
-2024-06-29 18:58:33 INFO  Hook:22 - Launching the browser
-2024-06-29 18:58:33 INFO  FlightBookingSteps:22 - I navigate to home page
-2024-06-29 18:58:33 INFO  DeloitteDriver:22 - Navigate to Home Page
-2024-06-29 18:58:36 INFO  DeloitteDriver:22 - Maximize window
-  Given I navigate to home page                                      # org.deloitte.stepdefs.FlightBookingSteps.gotoHomePage()
-2024-06-29 18:58:36 INFO  FlightBookingSteps:22 - I search with Sheet1 and 1 data with current date
-2024-06-29 18:58:36 INFO  ExcelFileUtil:52 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1 and row1
-2024-06-29 18:58:36 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
-2024-06-29 18:58:36 INFO  ExcelFileUtil:33 - Reading the data from /home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx and sheet Sheet1
-2024-06-29 18:58:36 INFO  ExcelFileUtil:19 - Reading workbook getWorkbookSheet(/home/jagadeesh/personalws/java/automation_testing/src/main/resources/Deloitte.xlsx, Sheet1)
-2024-06-29 18:58:36 INFO  IxigoHomePage:22 - enterSearchDetails(String {}, String {})
-2024-06-29 18:58:36 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //*[@data-testid=&apos;originId&apos;]//parent::div and time: 30
-2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Click the element: By.xpath: //*[@data-testid=&apos;originId&apos;]//parent::div
-2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Find element By.xpath: //*[@data-testid=&apos;originId&apos;]//parent::div
-2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()=&apos;From&apos;]/following-sibling::input and time: 30
-2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Enter text: Hyderabad
-2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()=&apos;From&apos;]/following-sibling::input
-2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()=&apos;From&apos;]/following-sibling::input
-2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()=&apos;From&apos;]/following-sibling::input
-2024-06-29 18:58:38 INFO  DeloitteDriver:22 - Wait for 2 second(s)
-2024-06-29 18:58:40 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()=&apos;From&apos;]/ancestor::div[contains(@class, &apos;items&apos;)]//div[contains(@class, &apos;Autocompleter&apos;)]//li and get index element 0
-2024-06-29 18:58:40 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()=&apos;From&apos;]/ancestor::div[contains(@class, &apos;items&apos;)]//div[contains(@class, &apos;Autocompleter&apos;)]//li
-2024-06-29 18:58:40 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //label[normalize-space()=&apos;To&apos;]/following-sibling::input and time: 30
-2024-06-29 18:58:41 INFO  DeloitteDriver:22 - Enter text: Chennai
-2024-06-29 18:58:41 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()=&apos;To&apos;]/following-sibling::input
-2024-06-29 18:58:41 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()=&apos;To&apos;]/following-sibling::input
-2024-06-29 18:58:41 INFO  DeloitteDriver:22 - Find element By.xpath: //label[normalize-space()=&apos;To&apos;]/following-sibling::input
-2024-06-29 18:58:41 INFO  DeloitteDriver:22 - Wait for 2 second(s)
-2024-06-29 18:58:43 INFO  DeloitteDriver:22 - Find elements: By.xpath: //label[normalize-space()=&apos;To&apos;]/ancestor::div[contains(@class, &apos;items&apos;)]//div[contains(@class, &apos;Autocompleter&apos;)]//li and get index element 0
-2024-06-29 18:58:43 INFO  DeloitteDriver:22 - Find elements By.xpath: //label[normalize-space()=&apos;To&apos;]/ancestor::div[contains(@class, &apos;items&apos;)]//div[contains(@class, &apos;Autocompleter&apos;)]//li
-2024-06-29 18:58:43 INFO  DeloitteDriver:22 - Wait until element is clickable: By.xpath: //button[text()=&apos;Search&apos;] and time: 30
-2024-06-29 18:58:43 INFO  DeloitteDriver:22 - Wait for 2 second(s)
-2024-06-29 18:58:45 INFO  DeloitteDriver:22 - Click the element: By.xpath: //button[text()=&apos;Search&apos;]
-2024-06-29 18:58:45 INFO  DeloitteDriver:22 - Find element By.xpath: //button[text()=&apos;Search&apos;]
-2024-06-29 18:58:45 INFO  FlightSearchResultsPage:22 - Wait for Page Load
-2024-06-29 18:58:45 INFO  DeloitteDriver:22 - Wait for the presence of element: By.xpath: //div/p[text()=&apos; Flights Available&apos;] and time: 30
-  And I search with &quot;Sheet1&quot; and 1 data with current date            # org.deloitte.stepdefs.FlightBookingSteps.enterFlightSearchDetails(java.lang.String,int)
-      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div/p[text()=&apos; Flights Available&apos;] (tried for 30 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at org.deloitte.utils.DeloitteDriver.waitUntilElementIsPresent(DeloitteDriver.java:76)
-	at org.deloitte.pages.FlightSearchResultsPage.waitForPageLoad(FlightSearchResultsPage.java:20)
-	at org.deloitte.pages.FlightSearchResultsPage.&lt;init&gt;(FlightSearchResultsPage.java:15)
-	at org.deloitte.pages.IxigoHomePage.enterSearchDetails(IxigoHomePage.java:39)
-	at org.deloitte.stepdefs.FlightBookingSteps.enterFlightSearchDetails(FlightBookingSteps.java:40)
-	at ✽.I search with &quot;Sheet1&quot; and 1 data with current date(file:///home/jagadeesh/personalws/java/automation_testing/src/test/resources/FlightBooking.feature:5)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div/p[text()=&apos; Flights Available&apos;]&quot;}
-  (Session info: chrome=126.0.6478.126)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.5.0-41-generic&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [35902fb870ad2fd759fe4a3028fc9c8c, findElement {using=xpath, value=//div/p[text()=&apos; Flights Available&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44961}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44961/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 35902fb870ad2fd759fe4a3028fc9c8c
-	at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	at org.deloitte.utils.DeloitteDriver.waitUntilElementIsPresent(DeloitteDriver.java:76)
-	at org.deloitte.pages.FlightSearchResultsPage.waitForPageLoad(FlightSearchResultsPage.java:20)
-	at org.deloitte.pages.FlightSearchResultsPage.&lt;init&gt;(FlightSearchResultsPage.java:15)
-	at org.deloitte.pages.IxigoHomePage.enterSearchDetails(IxigoHomePage.java:39)
-	at org.deloitte.stepdefs.FlightBookingSteps.enterFlightSearchDetails(FlightBookingSteps.java:40)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
-	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
-	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
-	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
-	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
-	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-
-  And I choose available flight from search results                  # org.deloitte.stepdefs.FlightBookingSteps.selectAvailableFlight()
-2024-06-29 18:59:15 INFO  Hook:22 - Closing the browser.
-
-    Embedding Flight booking confirmation with available flights [image/png 99202 bytes]
-
-2024-06-29 18:59:15 INFO  DeloitteDriver:22 - Quit the browser
-</system-out>
-    <system-err>Jun 29, 2024 6:58:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 126
-</system-err>
-  </testcase>
+  <testcase classname="Post user data and Get user data" name="Create user data with userid get User data" time="6.611"/>
 </testsuite>

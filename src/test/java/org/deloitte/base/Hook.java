@@ -18,7 +18,7 @@ public class Hook extends BaseTest {
     @Before
     public void setUp(Scenario scenario) throws MalformedURLException {
         logger.info("Launching the browser");
-        this.driver = DeloitteDriver.getRemoteDriver();
+        this.driver = DeloitteDriver.getSeleniumDriver();
         this.test.driver = this.driver;
     }
 

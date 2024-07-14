@@ -1325,3 +1325,272 @@ java.io.IOException: Error: End-of-File, expected line
 2024-07-07 19:45:06 INFO  PDFTestSteps:22 - Validate text with PDF file content located at sample.pdf
 2024-07-07 19:45:06 INFO  Hook:22 - Closing the browser.
 2024-07-07 19:45:07 INFO  DeloitteDriver:22 - Quit the browser
+2024-07-14 17:49:38 INFO  Hook:22 - Launching the browser
+2024-07-14 17:49:38 INFO  Hook:22 - Closing the browser.
+2024-07-14 17:50:02 INFO  Hook:22 - Launching the browser
+2024-07-14 17:50:02 INFO  Hook:22 - Closing the browser.
+2024-07-14 17:58:15 INFO  Hook:22 - Launching the browser
+2024-07-14 17:58:15 INFO  Hook:22 - Closing the browser.
+2024-07-14 17:59:13 INFO  Hook:23 - Launching the browser
+2024-07-14 17:59:13 INFO  Hook:23 - Closing the browser.
+2024-07-14 17:59:38 INFO  Hook:23 - Launching the browser
+2024-07-14 17:59:38 INFO  Hook:23 - Closing the browser.
+2024-07-14 18:00:14 INFO  Hook:24 - Launching the browser
+2024-07-14 18:00:14 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:01:24 INFO  Hook:24 - Launching the browser
+2024-07-14 18:01:24 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:01:24 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:01:24 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:01:25 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:02:04 INFO  Hook:24 - Launching the browser
+2024-07-14 18:02:04 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:02:04 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:02:04 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:02:05 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:02:13 INFO  Hook:24 - Launching the browser
+2024-07-14 18:02:13 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:02:13 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:02:13 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:02:14 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:02:50 INFO  Hook:24 - Launching the browser
+2024-07-14 18:02:50 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:02:50 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:02:50 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:02:51 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:03:35 INFO  Hook:24 - Launching the browser
+2024-07-14 18:03:35 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:03:35 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:03:35 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:03:41 INFO  PDFTestSteps:24 - I read test data from Sheet2 at 0
+2024-07-14 18:03:41 INFO  ExcelFileUtil:56 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-14 18:03:41 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-14 18:03:41 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-14 18:03:41 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-14 18:03:41 INFO  PDFTestSteps:24 - Validate text with PDF file content located at sample.pdf
+2024-07-14 18:03:41 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:03:41 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 18:04:55 INFO  Hook:24 - Launching the browser
+2024-07-14 18:04:55 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:04:55 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:04:55 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:04:58 INFO  PDFTestSteps:24 - I read test data from Sheet2 at 0
+2024-07-14 18:04:58 INFO  ExcelFileUtil:56 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-14 18:04:58 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-14 18:04:58 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-14 18:04:58 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-14 18:04:58 INFO  PDFTestSteps:24 - Validate text with PDF file content located at sample.pdf
+2024-07-14 18:04:58 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:04:59 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 18:05:36 INFO  Hook:24 - Launching the browser
+2024-07-14 18:05:36 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:05:36 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:05:36 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:05:39 INFO  PDFTestSteps:24 - I read test data from Sheet2 at 0
+2024-07-14 18:05:39 INFO  ExcelFileUtil:56 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2 and row0
+2024-07-14 18:05:39 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-14 18:05:39 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet2
+2024-07-14 18:05:39 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet2)
+2024-07-14 18:05:39 INFO  PDFTestSteps:24 - Validate text with PDF file content located at sample.pdf
+2024-07-14 18:05:40 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:05:40 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 18:07:23 INFO  Hook:24 - Launching the browser
+2024-07-14 18:07:23 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:07:23 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:07:23 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:07:25 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-14 18:07:25 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 18:07:27 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:07:28 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 18:08:08 INFO  Hook:24 - Launching the browser
+2024-07-14 18:08:08 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:08:08 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:08:08 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:08:11 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-14 18:08:11 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 18:08:13 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:08:13 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 18:09:06 INFO  Hook:24 - Launching the browser
+2024-07-14 18:09:06 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:09:06 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:09:06 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:09:08 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-14 18:09:08 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 18:09:10 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:09:10 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 18:16:05 INFO  Hook:24 - Launching the browser
+2024-07-14 18:16:05 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:16:05 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:16:05 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:16:08 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-14 18:16:08 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 18:16:10 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:16:10 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 18:17:00 INFO  Hook:24 - Launching the browser
+2024-07-14 18:17:00 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:17:00 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:17:00 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:17:02 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-14 18:17:02 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 18:17:05 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:17:05 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 18:17:40 INFO  Hook:24 - Launching the browser
+2024-07-14 18:17:40 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:17:40 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:17:40 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:17:42 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-14 18:17:42 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 18:17:44 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:17:44 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 18:42:29 INFO  Hook:24 - Launching the browser
+2024-07-14 18:42:29 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:42:29 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:42:29 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:42:32 INFO  UserApiSteps:24 - I read api test data from Sheet3
+2024-07-14 18:42:32 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-14 18:42:32 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 18:42:32 INFO  UserApiSteps:24 - I send a POST request to users using 1 row request body
+2024-07-14 18:42:35 INFO  UserApiSteps:24 - Post /users response: {"name":"Chandrika","job":"QA","id":"843","createdAt":"2024-07-14T13:12:35.854Z"}
+2024-07-14 18:42:35 INFO  UserApiSteps:24 - I validate the response code to be 201
+2024-07-14 18:42:35 INFO  UserApiSteps:24 - I retrieve created users details from the system
+2024-07-14 18:42:36 INFO  UserApiSteps:24 - GET user/{id} Response: 
+2024-07-14 18:42:36 INFO  UserApiSteps:24 - I compare both responses
+2024-07-14 18:42:36 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:42:36 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 18:43:35 INFO  Hook:24 - Launching the browser
+2024-07-14 18:43:35 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:43:35 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:43:35 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:43:39 INFO  UserApiSteps:24 - I read api test data from Sheet3
+2024-07-14 18:43:39 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-14 18:43:39 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 18:43:39 INFO  UserApiSteps:24 - I send a POST request to users using 1 row request body
+2024-07-14 18:43:41 INFO  UserApiSteps:24 - Post /users response: {"name":"Chandrika","job":"QA","id":"650","createdAt":"2024-07-14T13:13:42.025Z"}
+2024-07-14 18:43:41 INFO  UserApiSteps:24 - I validate the response code to be 201
+2024-07-14 18:43:41 INFO  UserApiSteps:24 - I retrieve created users details from the system
+2024-07-14 18:43:43 INFO  UserApiSteps:24 - GET user/{id} Response: 
+2024-07-14 18:43:43 INFO  UserApiSteps:24 - I compare both responses
+2024-07-14 18:43:43 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:43:43 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 18:45:22 INFO  Hook:24 - Launching the browser
+2024-07-14 18:45:22 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:45:22 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:45:22 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:45:25 INFO  UserApiSteps:24 - I read api test data from Sheet3
+2024-07-14 18:45:25 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-14 18:45:25 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 18:45:25 INFO  UserApiSteps:24 - I send a POST request to users using 1 row request body
+2024-07-14 18:45:27 INFO  UserApiSteps:24 - Post /users response: {"name":"Chandrika","job":"QA","id":"347","createdAt":"2024-07-14T13:15:27.688Z"}
+2024-07-14 18:45:27 INFO  UserApiSteps:24 - I validate the response code to be 201
+2024-07-14 18:45:27 INFO  UserApiSteps:24 - I retrieve created users details from the system
+2024-07-14 18:45:28 INFO  UserApiSteps:24 - GET user/{id} Response: 
+2024-07-14 18:45:28 INFO  UserApiSteps:24 - I compare both responses
+2024-07-14 18:45:28 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:45:28 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 18:50:07 INFO  Hook:24 - Launching the browser
+2024-07-14 18:50:07 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:50:07 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:50:07 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:50:09 INFO  UserApiSteps:24 - I read api test data from Sheet3
+2024-07-14 18:50:09 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-14 18:50:09 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 18:50:09 INFO  UserApiSteps:24 - I send a POST request to users using 1 row request body
+2024-07-14 18:50:13 INFO  UserApiSteps:24 - Post /users response: {"name":"Chandrika","job":"QA","id":"795","createdAt":"2024-07-14T13:20:13.111Z"}
+2024-07-14 18:50:13 INFO  UserApiSteps:24 - I validate the response code to be 201
+2024-07-14 18:50:13 INFO  UserApiSteps:24 - I retrieve created users details from the system
+2024-07-14 18:50:14 INFO  UserApiSteps:24 - GET user/{id} Response: 
+2024-07-14 18:50:14 INFO  UserApiSteps:24 - I compare both responses
+2024-07-14 18:50:14 INFO  UserApiSteps:24 - I write the response to Sheet3 in Excel file
+2024-07-14 18:50:14 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 18:50:15 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:50:15 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 18:59:38 INFO  Hook:24 - Launching the browser
+2024-07-14 18:59:38 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 18:59:38 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 18:59:38 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 18:59:41 INFO  UserApiSteps:24 - I read api test data from Sheet3
+2024-07-14 18:59:41 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-14 18:59:41 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 18:59:41 INFO  UserApiSteps:24 - I send a POST request to users using 1 row request body
+2024-07-14 18:59:44 INFO  UserApiSteps:24 - Post /users response: {"name":"Chandrika","job":"QA","id":"143","createdAt":"2024-07-14T13:29:45.238Z"}
+2024-07-14 18:59:44 INFO  UserApiSteps:24 - I validate the response code to be 201
+2024-07-14 18:59:44 INFO  UserApiSteps:24 - I retrieve created users details from the system
+2024-07-14 18:59:47 INFO  UserApiSteps:24 - GET user/{id} Response: 
+2024-07-14 18:59:47 INFO  UserApiSteps:24 - I compare both responses
+2024-07-14 18:59:47 INFO  UserApiSteps:24 - I write the response to Sheet3 in Excel file
+2024-07-14 18:59:47 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 18:59:47 ERROR ExcelFileUtil:82 - D:\automation_task-main\src\main\resources\Deloitte.xlsx (The process cannot access the file because it is being used by another process)
+java.io.FileNotFoundException: D:\automation_task-main\src\main\resources\Deloitte.xlsx (The process cannot access the file because it is being used by another process)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123) ~[?:?]
+	at org.deloitte.utils.ExcelFileUtil.writeData(ExcelFileUtil.java:78) ~[classes/:?]
+	at org.deloitte.stepdefs.UserApiSteps.writeData(UserApiSteps.java:79) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.18.0.jar:7.18.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.18.0.jar:7.18.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.18.0.jar:7.18.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) ~[junit-4.13.2.jar:4.13.2]
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89) ~[cucumber-junit-7.18.0.jar:7.18.0]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) ~[junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) ~[junit-4.13.2.jar:4.13.2]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147) ~[cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162) [cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145) [cucumber-core-7.18.0.jar:7.18.0]
+	at io.cucumber.junit.Cucumber$StartAndFinishTestRun.evaluate(Cucumber.java:226) [cucumber-junit-7.18.0.jar:7.18.0]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2024-07-14 18:59:47 INFO  Hook:24 - Closing the browser.
+2024-07-14 18:59:47 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-14 19:00:08 INFO  Hook:24 - Launching the browser
+2024-07-14 19:00:09 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-14 19:00:09 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-14 19:00:09 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-14 19:00:11 INFO  UserApiSteps:24 - I read api test data from Sheet3
+2024-07-14 19:00:11 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-14 19:00:11 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 19:00:11 INFO  UserApiSteps:24 - I send a POST request to users using 1 row request body
+2024-07-14 19:00:13 INFO  UserApiSteps:24 - Post /users response: {"name":"Chandrika","job":"QA","id":"384","createdAt":"2024-07-14T13:30:14.155Z"}
+2024-07-14 19:00:13 INFO  UserApiSteps:24 - I validate the response code to be 201
+2024-07-14 19:00:13 INFO  UserApiSteps:24 - I retrieve created users details from the system
+2024-07-14 19:00:14 INFO  UserApiSteps:24 - GET user/{id} Response: 
+2024-07-14 19:00:14 INFO  UserApiSteps:24 - I compare both responses
+2024-07-14 19:00:14 INFO  UserApiSteps:24 - I write the response to Sheet3 in Excel file
+2024-07-14 19:00:14 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-14 19:00:14 INFO  Hook:24 - Closing the browser.
+2024-07-14 19:00:14 INFO  DeloitteDriver:24 - Quit the browser
