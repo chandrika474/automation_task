@@ -5,6 +5,7 @@ Feature:Post user data and Get user data
     When I send a POST request to "<endpoint>" using <row> row request body
     And I validate the response code to be 201
     And I retrieve created "<endpoint>" details from the system
+    And I validate get the response code to be 200
     And I compare both responses
     Then I write the response to "<SheetName>" and <row> in Excel file
    Examples:
