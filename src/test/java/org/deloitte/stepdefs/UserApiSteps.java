@@ -47,7 +47,7 @@ public class UserApiSteps extends BaseTest {
     @And("I validate the response code to be {int}")
     public void validateResponseCode(int expectedStatus) throws IOException {
         logger.info(String.format("I validate the response code to be %d", expectedStatus));
-        Assert.assertEquals(response.getStatusCode(), expectedStatus);
+        Assert.assertEquals(expectedStatus,response.getStatusCode());
     }
 
     @And("I retrieve created {string} details from the system")
