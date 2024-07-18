@@ -18,6 +18,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+
 public class UserApiSteps extends BaseTest {
     private List<Map<String, String>> userData;
     private Response response;
@@ -54,23 +56,33 @@ public class UserApiSteps extends BaseTest {
         int userId = response.jsonPath().getInt("id");
         RequestSpecification specification = RESTAPIHelper.prepareBaseRequest();
         specification.basePath(String.format("%s/%d", endpoint, userId));
+        specification.basePath(String.format("%s/%d", endpoint, 2));
         getResponse = RESTAPIHelper.get(specification);
-        logger.info(String.format("GET user/{id} Response: ", getResponse.asString()));
+        logger.info(String.format("GET user/{id} Response: %s", getResponse.asString()));
+    }
+
+    @And("I validate get the response code to be {int}")
+    public void getvalidateResponseCode(int expectedStatus) throws IOException {
+        logger.info(String.format("I validate the response code to be %d", expectedStatus));
+        Assert.assertEquals(expectedStatus,getResponse.getStatusCode());
     }
 
     @And("I compare both responses")
     public void compareResponses() {
         logger.info("I compare both responses");
         List<Object> postRes = new ArrayList<>();
-        postRes.add(response.jsonPath().getString("name"));
-        postRes.add(response.jsonPath().getInt("id"));
-        postRes.add(response.jsonPath().getString("job"));
+        postRes.add(response.jsonPath().getString("email"));
+        postRes.add(response.jsonPath().getString("first_name"));
+        // postRes.add(response.jsonPath().getInt("id"));
+        postRes.add(response.jsonPath().getString("last_name"));
 
         List<Object> getRes = new ArrayList<>();
-        getRes.add(getResponse.jsonPath().getString("name"));
-        // getRes.add(getResponse.jsonPath().getInt("id"));
-        // getRes.add(getResponse.jsonPath().getString("job"));
-        // Assert.assertEquals(postRes, Matchers.containsInAnyOrder(getRes.toArray()));
+        getRes.add(getResponse.jsonPath().getString("data.email"));
+        getRes.add(getResponse.jsonPath().getString("data.first_name"));
+       // getRes.add(getResponse.jsonPath().getInt("data.id"));
+        getRes.add(getResponse.jsonPath().getString("data.last_name"));
+       // Assert.assertEquals(postRes, Matchers.containsInAnyOrder(getRes.toArray()));
+        assertThat(postRes, Matchers.containsInAnyOrder(getRes.toArray()));
     }
 
     @Then("I write the response to {string} and {int} in Excel file")
