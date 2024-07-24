@@ -1594,3 +1594,39 @@ java.io.FileNotFoundException: D:\automation_task-main\src\main\resources\Deloit
 2024-07-14 19:00:14 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
 2024-07-14 19:00:14 INFO  Hook:24 - Closing the browser.
 2024-07-14 19:00:14 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-22 07:43:27 INFO  Hook:24 - Launching the browser
+2024-07-22 07:43:27 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-22 07:43:27 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-22 07:43:27 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-22 07:43:31 INFO  UserApiSteps:24 - I read api test data from Sheet3
+2024-07-22 07:43:31 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-22 07:43:31 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-22 07:43:31 INFO  UserApiSteps:24 - I send a POST request to users using 1 row request body
+2024-07-22 07:43:34 INFO  UserApiSteps:24 - Post /users response: {"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","id":"251","createdAt":"2024-07-22T02:13:36.264Z"}
+2024-07-22 07:43:34 INFO  UserApiSteps:24 - I validate the response code to be 201
+2024-07-22 07:43:34 INFO  UserApiSteps:24 - I retrieve created users details from the system
+2024-07-22 07:43:34 INFO  UserApiSteps:24 - GET user/{id} Response: {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2024-07-22 07:43:34 INFO  UserApiSteps:24 - I validate the response code to be 200
+2024-07-22 07:43:34 INFO  UserApiSteps:24 - I compare both responses
+2024-07-22 07:43:34 INFO  UserApiSteps:24 - I write the response to Sheet3 in Excel file
+2024-07-22 07:43:34 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-22 07:43:34 INFO  Hook:24 - Closing the browser.
+2024-07-22 07:43:35 INFO  DeloitteDriver:24 - Quit the browser
+2024-07-22 07:44:36 INFO  Hook:24 - Launching the browser
+2024-07-22 07:44:36 INFO  PropertiesUtil:16 - Reading the properties file located at D:\automation_task-main\src\main\resources\config.properties
+2024-07-22 07:44:36 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet1
+2024-07-22 07:44:36 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet1)
+2024-07-22 07:44:38 INFO  UserApiSteps:24 - I read api test data from Sheet3
+2024-07-22 07:44:38 INFO  ExcelFileUtil:37 - Reading the data from D:\automation_task-main\src\main\resources\Deloitte.xlsx and sheet Sheet3
+2024-07-22 07:44:38 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-22 07:44:38 INFO  UserApiSteps:24 - I send a POST request to users using 1 row request body
+2024-07-22 07:44:40 INFO  UserApiSteps:24 - Post /users response: {"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","id":"252","createdAt":"2024-07-22T02:14:42.859Z"}
+2024-07-22 07:44:40 INFO  UserApiSteps:24 - I validate the response code to be 201
+2024-07-22 07:44:40 INFO  UserApiSteps:24 - I retrieve created users details from the system
+2024-07-22 07:44:42 INFO  UserApiSteps:24 - GET user/{id} Response: {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2024-07-22 07:44:42 INFO  UserApiSteps:24 - I validate the response code to be 200
+2024-07-22 07:44:42 INFO  UserApiSteps:24 - I compare both responses
+2024-07-22 07:44:42 INFO  UserApiSteps:24 - I write the response to Sheet3 in Excel file
+2024-07-22 07:44:42 INFO  ExcelFileUtil:23 - Reading workbook getWorkbookSheet(D:\automation_task-main\src\main\resources\Deloitte.xlsx, Sheet3)
+2024-07-22 07:44:42 INFO  Hook:24 - Closing the browser.
+2024-07-22 07:44:42 INFO  DeloitteDriver:24 - Quit the browser

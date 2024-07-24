@@ -48,7 +48,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Jul 14, 2024 07:00:07 pm</span>
+			<span class='label blue darken-3 suite-start-time'>Jul 22, 2024 07:44:35 am</span>
 			</a>
 		</ul>
 	</div>
@@ -146,7 +146,7 @@
                 </div>
                 <div class='block text-small'>
                     <span class='tooltipped' data-position='top' data-tooltip='100%'>
-                    <span class='strong'>8</span> steps passed</span>
+                    <span class='strong'>9</span> steps passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
@@ -176,7 +176,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Post user data and Get user data</span>
-						<span class='test-time'>Jul 14, 2024 07:00:08 pm</span>
+						<span class='test-time'>Jul 22, 2024 07:44:35 am</span>
 						<span class='test-status right pass'>Pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -189,7 +189,7 @@
 
 <div class='scenario outline node' test-id='2' status='pass'>
 
-	<span class='duration right label'>00 00 06.712</span>
+	<span class='duration right label'>00 00 07.233</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: Create user data with userid get User data</div>
 	</div>
@@ -215,10 +215,11 @@
 
 							<div class="node-step">I read api test data from Sheet3</div>
 							<div class="node-step">I send a POST request to users using 1 row request body</div>
-							<div class="node-step">Post /users response: {"name":"Chandrika","job":"QA","id":"384","createdAt":"2024-07-14T13:30:14.155Z"}</div>
+							<div class="node-step">Post /users response: {"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","id":"252","createdAt":"2024-07-22T02:14:42.859Z"}</div>
 							<div class="node-step">I validate the response code to be 201</div>
 							<div class="node-step">I retrieve created users details from the system</div>
-							<div class="node-step">GET user/{id} Response: </div>
+							<div class="node-step">GET user/{id} Response: {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}</div>
+							<div class="node-step">I validate the response code to be 200</div>
 							<div class="node-step">I compare both responses</div>
 							<div class="node-step">I write the response to Sheet3 in Excel file</div>
 				</li>
@@ -235,14 +236,18 @@
 
 				</li>
 				<li test-id='9' class='gc and Pass' status='Pass'>
+					<h6 class="step-name" title="org.deloitte.stepdefs.UserApiSteps.getvalidateResponseCode(int)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And I validate get the response code to be 200</h6>
+
+				</li>
+				<li test-id='10' class='gc and Pass' status='Pass'>
 					<h6 class="step-name" title="org.deloitte.stepdefs.UserApiSteps.compareResponses()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And I compare both responses</h6>
 
 				</li>
-				<li test-id='10' class='gc then Pass' status='Pass'>
+				<li test-id='11' class='gc then Pass' status='Pass'>
 					<h6 class="step-name" title="org.deloitte.stepdefs.UserApiSteps.writeData(java.lang.String,int)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then I write the response to "Sheet3" and 1 in Excel file</h6>
 
 				</li>
-				<li test-id='11' class='gc * Pass' status='Pass'>
+				<li test-id='12' class='gc * Pass' status='Pass'>
 					<h6 class="step-name" title="AFTER"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>org.deloitte.base.Hook.tearDown(io.cucumber.java.Scenario)</h6>
 
 							<div class="node-step">Create user data with userid get User data</div>
@@ -298,25 +303,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>8</div>
+					<div class='panel-lead'>9</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 14, 2024 07:00:07 pm</div>
+					<div class='panel-lead'>Jul 22, 2024 07:44:35 am</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 14, 2024 07:00:15 pm</div>
+			 		<div class='panel-lead'>Jul 22, 2024 07:44:42 am</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>00 00 07.322</div>
+					<div class='panel-lead'>00 00 07.750</div>
 				</div>
 			</div>
 		</div>
@@ -342,8 +347,8 @@
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				grandChildCount: 8,
-				passGrandChild: 8,
+				grandChildCount: 9,
+				passGrandChild: 9,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -355,7 +360,7 @@
 		
 		<script>
 			var timeline = {
-			        "Post user data and Get user data":6.719
+			        "Post user data and Get user data":7.237
 			};
 		</script>
 		
