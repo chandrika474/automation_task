@@ -64,6 +64,12 @@ public class DeloitteDriver {
         getDriver().get(this.config.getUrl());
         maximizeWindow();
     }
+    
+    public void navigateToGHomePage() {
+        logger.info("Navigate to Home Page");
+        getDriver().get(this.config.getGurl());
+        maximizeWindow();
+    }
 
     public void quit() {
         logger.info("Quit the browser");

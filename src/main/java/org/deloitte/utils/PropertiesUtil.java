@@ -11,11 +11,11 @@ import java.util.Properties;
 
 public class PropertiesUtil {
     private final Logger logger = LogManager.getLogger(PropertiesUtil.class);
+    private Properties properties = null;
 
     public Properties readPropertiesFile(String filePath) {
         logger.info("Reading the properties file located at {}", filePath);
-        File file = new File(filePath);
-        Properties properties = null;
+        File file = new File(filePath);     
         try {
             FileReader stream = new FileReader(file);
             properties = new Properties();
@@ -29,4 +29,6 @@ public class PropertiesUtil {
         }
         return properties;
     }
+    
+    
 }
