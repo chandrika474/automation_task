@@ -6,6 +6,7 @@ import org.apache.pdfbox.pdmodel.font.PDType3CharProc;
 import org.deloitte.config.TestConfig;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -51,14 +52,24 @@ public class DeloitteDriver {
 
     public static DeloitteDriver getSeleniumDriver() {
         DeloitteDriver seleniumDriver = new DeloitteDriver();
+        if(seleniumDriver.config.getheadlessMode()) {
+        	ChromeOptions option = new ChromeOptions();
+        	option.addArguments("--headless=new");
+        	if (seleniumDriver.config.getBrowser().equalsIgnoreCase("chrome")) {
+                WebDriverManager.chromedriver().setup();
+                WebDriver driver = new ChromeDriver(option);
+                seleniumDriver.setDriver(driver);  	}
+        	}
+        else {
         if (seleniumDriver.config.getBrowser().equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
             WebDriver driver = new ChromeDriver();
             seleniumDriver.setDriver(driver);
         }
+      }
         return seleniumDriver;
     }
-
+    
     public void navigateToHomePage() {
         logger.info("Navigate to Home Page");
         getDriver().get(this.config.getUrl());
