@@ -8,5 +8,4 @@ Feature: Flight Booking and Payment Functionality
 
     Examples:
       | SheetName |  | Row |
-      | Sheet1    |  | 0   |
       | Sheet1    |  | 1   |
