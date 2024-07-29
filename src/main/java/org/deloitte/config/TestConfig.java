@@ -1,5 +1,8 @@
 package org.deloitte.config;
 
+import org.deloitte.pages.FlightBookingPage;
+import org.deloitte.pages.FlightSearchResultsPage;
+import org.deloitte.pages.IxigoHomePage;
 import org.deloitte.utils.PropertiesUtil;
 import org.deloitte.utils.TestData;
 
@@ -15,6 +18,7 @@ public class TestConfig {
 	private String host;
 	private String loginEmail;
 	private String loginEmailPassword;
+	private Boolean headlessMode;
 	private static TestConfig testConfig;
 
 	public String getUrl() {
@@ -52,6 +56,11 @@ public class TestConfig {
 	public String getLoginEmailPassword() {
 		return loginEmailPassword;
 	}
+	
+	public Boolean getheadlessMode() {
+		return headlessMode;
+	}
+	
 
 	public static synchronized TestConfig getInstance() {
 		if (testConfig == null) {
@@ -66,6 +75,7 @@ public class TestConfig {
 			testConfig.host = props.getProperty("Host");
 			testConfig.loginEmail = props.getProperty("LOGIN_EMAIL");
 			testConfig.loginEmailPassword = props.getProperty("LOGIN_EMAIL_PASSWORD");
+			testConfig.headlessMode = Boolean.parseBoolean(props.getProperty("HEADLESSMODE"));
 		}
 		return testConfig;
 	}
