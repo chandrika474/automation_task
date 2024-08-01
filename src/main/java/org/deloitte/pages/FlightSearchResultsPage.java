@@ -12,16 +12,23 @@ public class FlightSearchResultsPage extends BasePage {
 
     public FlightSearchResultsPage(DeloitteDriver driver) {
         this.driver = driver;
-        waitForPageLoad();
+        waitForPageLoad();  
     }
 
     public void waitForPageLoad() {
         logger.info("Wait for Page Load");
-        driver.waitUntilElementIsPresent(flightsAvailableText, Constants.WAIT_TIME);
+        
+        driver.waitUntilElementIsPresent(flightsAvailableText, 50);
     }
 
     public FlightBookingPage selectFlight() {
         logger.info("Select the flight from search results.");
+        driver.wait(2);
+        String title = driver.getTitle();
+        if(title.equalsIgnoreCase("ixigo hotels")) {
+        	driver.getWindow();
+        	driver.getTitle();
+        }
         waitForPageLoad();
         driver.waitUntilElementIsClickable(bookButtons, Constants.WAIT_TIME);
         driver.getElementFromList(bookButtons, 0).click();

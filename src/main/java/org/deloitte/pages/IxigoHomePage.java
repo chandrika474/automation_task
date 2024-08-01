@@ -20,8 +20,9 @@ public class IxigoHomePage extends BasePage {
     }
 
     public FlightSearchResultsPage enterSearchDetails(String from, String to) {
-        logger.info(String.format("enterSearchDetails(String {}, String {})", from, to));
+        logger.info(String.format("enterSearchDetails(String %s, String %s)", from, to));
         driver.waitUntilElementIsClickable(fromElement, Constants.WAIT_TIME);
+ 
         driver.click(fromElement);
         driver.waitUntilElementIsClickable(fromInputElement, Constants.WAIT_TIME);
         driver.enterText(fromInputElement, from);
