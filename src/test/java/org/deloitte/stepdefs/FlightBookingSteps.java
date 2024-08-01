@@ -22,7 +22,7 @@ public class FlightBookingSteps extends BaseTest {
     private FlightBookingPage flightBookingPage;
 
     public FlightBookingSteps(BaseTest test) {
-        this.driver = test.driver;
+        this.driver = test.driver;   
     }
 
     @Given("I navigate to home page")
@@ -37,13 +37,14 @@ public class FlightBookingSteps extends BaseTest {
         logger.info(String.format("I search with %s and %s data with current date", sheetName, row));
         Map<String, String> data = new ExcelFileUtil().readData(TestData.excelFile, sheetName, row);
         searchResultsPage = homePage.enterSearchDetails(data.get("From"), data.get("To"));
+     //   searchResultsPage = homePage.enterSearchDetails("Hyderabad", "Bangalore");
     }
 
-    @And("I travel {string} to {string} on current date")
+   /* @And("I travel {string} to {string} on current date")
     public void enterFlightSearchDetails(String from, String to) {
         logger.info(String.format("I travel %s to %s on current date", from, to));
-        searchResultsPage = homePage.enterSearchDetails(from, to);
-    }
+        searchResultsPage = homePage.enterSearchDetails(from,to);
+    }*/
 
     @And("I choose available flight from search results")
     public void selectAvailableFlight() {
