@@ -1,10 +1,20 @@
 package org.deloitte.utils;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import java.io.File;
+import java.net.MalformedURLException;
+import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.commons.io.FileUtils;
-import org.apache.pdfbox.pdmodel.font.PDType3CharProc;
 import org.deloitte.config.TestConfig;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -14,11 +24,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.File;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.time.Duration;
-import java.util.List;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DeloitteDriver {
     private static final ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
@@ -26,6 +32,7 @@ public class DeloitteDriver {
     //    private final Logger logger = LogManager.getLogger(DeloitteDriver.class);
     private final LoggerReport logger = LoggerReport.getLogger(DeloitteDriver.class);
     private TestConfig config;
+    
 
     private DeloitteDriver() {
         this.config = TestData.testConfig;
@@ -55,6 +62,12 @@ public class DeloitteDriver {
         if(seleniumDriver.config.getheadlessMode()) {
         	ChromeOptions option = new ChromeOptions();
         	option.addArguments("--headless=new");
+        	option.addArguments("--disable-gpu");
+        	option.addArguments("--window-size=1920,1080");
+        	option.addArguments("--start-maximized");
+        	option.addArguments("--disable-extensions");
+        	option.addArguments("--disable-blink-features=AutomationControlled");
+        	option.addArguments("user-agent=your-random-user-agent-string");
         	if (seleniumDriver.config.getBrowser().equalsIgnoreCase("chrome")) {
                 WebDriverManager.chromedriver().setup();
                 WebDriver driver = new ChromeDriver(option);
@@ -102,6 +115,18 @@ public class DeloitteDriver {
         logger.info(String.format("Find elements %s", element));
         return getDriver().findElements(element);
     }
+    
+    public WebDriver getWindow() {
+    	List<String> tabs = new ArrayList<>(getDriver().getWindowHandles());
+    	return getDriver().switchTo().window(tabs.get(1));
+    	
+    }
+    
+    public String getTitle() {
+    	String title = getDriver().getTitle();
+    	System.out.println("Title is:"+title);
+    	return title;
+    }
 
     public void waitUntilElementIsPresent(By element, int time) {
         logger.info(String.format("Wait for the presence of element: %s and time: %s", element, time));
@@ -146,7 +171,7 @@ public class DeloitteDriver {
             logger.error("Interrupted Exception.", e);
         }
     }
-
+    
     public void takeScreenshot(String fileName) {
         logger.info(String.format("Take screenshot %s", fileName));
         TakesScreenshot screenshot = (TakesScreenshot) getDriver();
