@@ -12,6 +12,7 @@ public class TestConfig {
 	private String url;
 	private String gurl;
 	private String apiBaseURI;
+	private String apiBaseURIGo;
 	private String browser;
 	private String to;
 	private String from;
@@ -31,6 +32,10 @@ public class TestConfig {
 
 	public String getApiBaseURI() {
 		return apiBaseURI;
+	}
+	
+	public String getApiBaseURIGo() {
+		return apiBaseURIGo;
 	}
 
 	public String getBrowser() {
@@ -70,6 +75,7 @@ public class TestConfig {
 			testConfig.gurl = props.getProperty("GURL");
 			testConfig.browser = props.getProperty("BROWSER");
 			testConfig.apiBaseURI = props.getProperty("API_URL");
+			testConfig.apiBaseURIGo = props.getProperty("API_URLGo");
 			testConfig.to = props.getProperty("To");
 			testConfig.from = props.getProperty("From");
 			testConfig.host = props.getProperty("Host");
