@@ -4,7 +4,8 @@ Feature: Flight Booking and Payment Functionality
     Given I navigate to home page
     And I search with "<SheetName>" and <Row> data with current date
     And I choose available flight from search results
-#    And I verify "<From>", "<To>" details and click on continue button
+#   And I verify "<From>", "<To>" details and click on continue button
+#	And I verify From and To details and click on continue button
 
     Examples:
       | SheetName |  | Row |
