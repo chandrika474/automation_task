@@ -15,9 +15,20 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	
-	<dependencies>
-		<!--
-		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M5</version>
+        </plugin>
+    </plugins>
+</build>
+
+	
+<dependencies>
+	
+		<!--https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -54,7 +65,7 @@
 			<version>7.18.0</version>
 			<scope>test</scope>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
@@ -121,19 +132,6 @@
 			<version>2.0.1</version>
 		</dependency>
 		
-		<dependency>
-			<groupId>javax.activation</groupId>
-			<artifactId>activation</artifactId>
-			<version>1.1.1</version>
-		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/jakarta.mail/jakarta.mail-api -->
-<dependency>
-    <groupId>jakarta.mail</groupId>
-    <artifactId>jakarta.mail-api</artifactId>
-    <version>2.1.3</version>
-</dependency>
-
 <!-- https://mvnrepository.com/artifact/com.sun.mail/smtp -->
 <dependency>
     <groupId>com.sun.mail</groupId>
@@ -141,7 +139,7 @@
     <version>2.0.1</version>
 </dependency>
 
-	
+
 	</dependencies>
 
 </project>
