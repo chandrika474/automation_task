@@ -68,6 +68,9 @@ public class DeloitteDriver {
         	option.addArguments("--disable-extensions");
         	option.addArguments("--disable-blink-features=AutomationControlled");
         	option.addArguments("user-agent=your-random-user-agent-string");
+        	option.addArguments("--disable-web-security");
+        	option.addArguments("--disable-cache");
+        	option.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36");
         	if (seleniumDriver.config.getBrowser().equalsIgnoreCase("chrome")) {
                 WebDriverManager.chromedriver().setup();
                 WebDriver driver = new ChromeDriver(option);

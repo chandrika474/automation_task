@@ -6,13 +6,24 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class RESTAPIHelper {
-
-    public static RequestSpecification prepareBaseRequest() {
+	private final static String falge = "true";
+	
+    public static RequestSpecification prepareBaseRequest(String flag) {
+    	if(falge.equalsIgnoreCase(flag)) {
         RequestSpecification specification = RestAssured.given();
         specification.baseUri(TestData.testConfig.getApiBaseURI());
         specification.accept(ContentType.JSON);
         specification.contentType(ContentType.JSON);
         return specification;
+    	}
+    	else 
+    	{
+    		RequestSpecification specification = RestAssured.given();
+            specification.baseUri(TestData.testConfig.getApiBaseURIGo());
+            specification.accept(ContentType.JSON);
+            specification.contentType(ContentType.JSON);
+            return specification;
+    	}
     }
 
     public static Response post(RequestSpecification specification) {
