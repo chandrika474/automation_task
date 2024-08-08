@@ -12,13 +12,12 @@ public class FlightSearchResultsPage extends BasePage {
 
     public FlightSearchResultsPage(DeloitteDriver driver) {
         this.driver = driver;
-        waitForPageLoad();  
+       // waitForPageLoad();  
     }
 
     public void waitForPageLoad() {
         logger.info("Wait for Page Load");
-        
-        driver.waitUntilElementIsPresent(flightsAvailableText, 50);
+         driver.waitUntilElementIsPresent(flightsAvailableText, 50);
     }
 
     public FlightBookingPage selectFlight() {
