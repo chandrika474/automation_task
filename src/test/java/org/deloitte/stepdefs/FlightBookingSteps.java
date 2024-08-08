@@ -20,6 +20,7 @@ public class FlightBookingSteps extends BaseTest {
     private IxigoHomePage homePage;
     private FlightSearchResultsPage searchResultsPage;
     private FlightBookingPage flightBookingPage;
+    private Map<String, String> data;
 
     public FlightBookingSteps(BaseTest test) {
         this.driver = test.driver;   
@@ -35,7 +36,7 @@ public class FlightBookingSteps extends BaseTest {
     @And("I search with {string} and {int} data with current date")
     public void enterFlightSearchDetails(String sheetName, int row) {
         logger.info(String.format("I search with %s and %s data with current date", sheetName, row));
-        Map<String, String> data = new ExcelFileUtil().readData(TestData.excelFile, sheetName, row);
+        data = new ExcelFileUtil().readData(TestData.excelFile, sheetName, row);
         searchResultsPage = homePage.enterSearchDetails(data.get("From"), data.get("To"));
      //   searchResultsPage = homePage.enterSearchDetails("Hyderabad", "Bangalore");
     }
@@ -52,9 +53,15 @@ public class FlightBookingSteps extends BaseTest {
         flightBookingPage = searchResultsPage.selectFlight();
     }
 
-    @And("I verify {string}, {string} details and click on continue button")
+  /**  @And("I verify {string}, {string} details and click on continue button")
     public void verifyAndClickContinue(String origin, String destination) {
         logger.info(String.format("I verify %s, %s details and click on continut button", origin, destination));
         flightBookingPage.clickOnContinue(origin, destination);
+    } **/
+    
+    @And ("I verify From and To details and click on continue button")
+    public void verifyAndClickContinue() {
+        logger.info("I verify From and To details and click on continut button");
+        flightBookingPage.clickOnContinue(data.get("From"), data.get("To"));
     }
 }

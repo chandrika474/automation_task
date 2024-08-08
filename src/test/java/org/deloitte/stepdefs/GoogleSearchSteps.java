@@ -23,7 +23,7 @@ public class GoogleSearchSteps extends BaseTest {
     @Given("I navigate to google home page")
     public void navigateToHomePage() {
         logger.info("I navigate to google home page");
-        driver.navigateToHomePage();
+        driver.navigateToGHomePage();
     }
 
     @When("I enter {string} in search field")

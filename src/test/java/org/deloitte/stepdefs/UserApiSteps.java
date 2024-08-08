@@ -35,10 +35,10 @@ public class UserApiSteps extends BaseTest {
         userData = new ExcelFileUtil().readData(TestData.excelFile, sheetName);
     }
 
-    @When("I send a POST request to {string} using {int} row request body")
-    public void postRequest(String endpoint, int row) {
-        logger.info(String.format("I send a POST request to %s using %d row request body", endpoint, row));
-        RequestSpecification specification = RESTAPIHelper.prepareBaseRequest();
+    @When("I send a POST request to {string} using {int} row and {string} request body")
+    public void postRequest(String endpoint, int row,String flag) {
+        logger.info(String.format("I send a POST request to %s using %d row and %s request body", endpoint, row,flag));
+        RequestSpecification specification = RESTAPIHelper.prepareBaseRequest(flag);
         specification.body(userData.get(row - 1).get("Request"));
         specification.basePath(endpoint);
         response = RESTAPIHelper.post(specification);
@@ -51,16 +51,27 @@ public class UserApiSteps extends BaseTest {
         Assert.assertEquals(expectedStatus,response.getStatusCode());
     }
 
-    @And("I retrieve created {string} details from the system")
-    public void getApiRequest(String endpoint) {
-        logger.info(String.format("I retrieve created %s details from the system", endpoint));
+    @And("I retrieve created {string} and {string} details from the system")
+    public void getApiRequest(String endpoint,String flag) {
+        logger.info(String.format("I retrieve created %s and %s details from the system", endpoint,flag));
        // int userId = response.jsonPath().getInt("id");
-        RequestSpecification specification = RESTAPIHelper.prepareBaseRequest();
-        //specification.basePath(String.format("%s/%d", endpoint, userId));
-        specification.basePath(String.format("%s/%s", endpoint, "?page=2"));
+        RequestSpecification specification = RESTAPIHelper.prepareBaseRequest(flag);
+       // specification.basePath(String.format("%s/%d", endpoint, userId));
+       specification.basePath(String.format("%s/%s", endpoint, "?page=2"));
         getResponse = RESTAPIHelper.get(specification);
         logger.info(String.format("GET user/{id} Response: %s", getResponse.asString()));
     }
+    
+    @And("I get {string} and {string} details from the system")
+    public void getRequest(String endpoint,String flag) {
+        logger.info(String.format("I get %s and %s details from the system", endpoint,flag));
+        RequestSpecification specification = RESTAPIHelper.prepareBaseRequest(flag);
+        specification.basePath(String.format("%s", endpoint));
+        getResponse = RESTAPIHelper.get(specification);
+        logger.info(String.format("GET user Response: %s", getResponse.asString()));
+    }
+    
+    
 
     @And("I validate get the response code to be {int}")
     public void getvalidateResponseCode(int expectedStatus) throws IOException {
